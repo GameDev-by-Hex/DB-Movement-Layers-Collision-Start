@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://obj/objects.png" type="Texture" id=1]
+
+[node name="bridge-vertical" type="KinematicBody2D"]
+z_index = 1
+
+[node name="brigeV" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 235.116, 102.829, 25.8304, 33.29 )
