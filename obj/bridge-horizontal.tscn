@@ -4,7 +4,8 @@
 
 [node name="bridge-vertical" type="KinematicBody2D"]
 z_index = 1
-collision_layer = 4
+collision_layer = 0
+collision_mask = 0
 
 [node name="brigeH" type="Sprite" parent="."]
 texture = ExtResource( 1 )

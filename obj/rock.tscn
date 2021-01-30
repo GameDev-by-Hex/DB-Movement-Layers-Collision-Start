@@ -3,6 +3,8 @@
 [ext_resource path="res://obj/objects.png" type="Texture" id=1]
 
 [node name="rock" type="KinematicBody2D"]
+collision_layer = 0
+collision_mask = 0
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
